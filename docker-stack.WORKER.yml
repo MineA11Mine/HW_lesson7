@@ -19,3 +19,11 @@ services:
         window: 120s
       placement:
         constraints: [node.role == manager]
+networks:
+  frontend:
+  backend:
+
+volumes:
+  db-data:
+
+

@@ -15,3 +15,11 @@ services:
       restart_policy:
         condition: on-failure
 
+networks:
+  frontend:
+  backend:
+
+volumes:
+  db-data:
+
+

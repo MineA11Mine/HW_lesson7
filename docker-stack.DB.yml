@@ -14,3 +14,11 @@ services:
       placement:
         constraints: [node.role == manager]
 
+networks:
+  frontend:
+  backend:
+
+volumes:
+  db-data:
+
+
