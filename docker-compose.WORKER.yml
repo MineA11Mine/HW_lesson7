@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  worker:
+    build:
+      context: ./worker
+    depends_on:
+      - "redis"
+      - "db"
+    networks:
+      - back-tier
+
